@@ -28,7 +28,6 @@
     <ItemsRelations xmi:id="_fmwp8OCJEemtmLIrsvPXHw">
       <baseItem xmi:id="_fmwp8eCJEemtmLIrsvPXHw" id="_XZl7kOCGEemtmLIrsvPXHw" version="0.1" type="job"/>
       <relatedItems xmi:id="_fmwp8uCJEemtmLIrsvPXHw" id="_bGvtUOCHEemtmLIrsvPXHw" version="Latest" type="property"/>
-      <relatedItems xmi:id="_fmwp8-CJEemtmLIrsvPXHw" id="_e20ssOCHEemtmLIrsvPXHw" version="Latest" type="property"/>
       <relatedItems xmi:id="_fmwp9OCJEemtmLIrsvPXHw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_fmwp9eCJEemtmLIrsvPXHw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_fmwp9uCJEemtmLIrsvPXHw" id="TalendString" version="Latest" type="routine"/>
