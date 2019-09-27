@@ -163,7 +163,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Practice"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="3" name="S_No" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="S_No" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="Course" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -201,7 +201,7 @@
         <mapperTableEntries name="Course" expression="row1.Course " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="S_No" type="id_String" nullable="true"/>
+        <mapperTableEntries name="S_No" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Name" type="id_String" nullable="true"/>
         <mapperTableEntries name="Course" type="id_String" nullable="true"/>
       </inputTables>
