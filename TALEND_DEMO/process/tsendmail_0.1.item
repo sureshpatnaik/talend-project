@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="SMTP Host Address" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="smtp.gmail.com"/>
+    <contextParameter comment="SMTP Port" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="465"/>
+    <contextParameter comment="SMTP User Name" name="SMTPUserName" prompt="SMTPUserName?" promptNeeded="false" type="id_String" value="UserName@gmail.com"/>
+    <contextParameter comment="SMTP Password" name="SMTPPassword" prompt="SMTPPassword?" promptNeeded="false" type="id_String" value="Password"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -244,7 +249,7 @@
     <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
-    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;out1.S_No + out1.Name + out1.Course&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="The file is:&quot;+(String)globalMap.get(((Integer)globalMap.ge((String)globalMap.get(&quot;tFileInputDelimited_1_ERROR_MESSAGE&quot;))"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS">
       <elementValue elementRef="FILE" value=""/>
