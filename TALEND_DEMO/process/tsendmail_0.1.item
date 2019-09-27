@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="SMTP Host Address" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="smtp.gmail.com"/>
-    <contextParameter comment="SMTP Port" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="465"/>
-    <contextParameter comment="SMTP User Name" name="SMTPUserName" prompt="SMTPUserName?" promptNeeded="false" type="id_String" value="UserName@gmail.com"/>
-    <contextParameter comment="SMTP Password" name="SMTPPassword" prompt="SMTPPassword?" promptNeeded="false" type="id_String" value="Password"/>
+    <contextParameter comment="" name="S_No" prompt="S_No?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Name" prompt="Name?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Course" prompt="Course?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -238,7 +237,7 @@
       <column comment="" key="false" length="15" name="Course" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="192">
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
     <elementParameter field="TEXT" name="TO" value="&quot;sureshpaatnaik.chowdary@gmail.com&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;sureshpatnaik.ch@gmail.com&quot;"/>
@@ -247,7 +246,7 @@
     <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
-    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello&quot;&#xD;&#xA;&#xD;&#xA;context.name=((String)globalMap.get(&quot;tLogRow_1_ERROR_MESSAGE&quot;))"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello&quot;&#xD;&#xA;&#xD;&#xA;"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
     <elementParameter field="TABLE" name="HEADERS"/>
