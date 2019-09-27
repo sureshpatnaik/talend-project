@@ -117,7 +117,7 @@
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello&quot;"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS">
-      <elementValue elementRef="FILE" value="&quot;D:\Institute\files for practice\Practice.csv&quot;"/>
+      <elementValue elementRef="FILE" value="&quot;D:\\Institute\\files for practice\\Practice.csv&quot;"/>
       <elementValue elementRef="CONTENT_TRANSFER_ENCODING" value="DEFAULT"/>
     </elementParameter>
     <elementParameter field="TABLE" name="HEADERS"/>
