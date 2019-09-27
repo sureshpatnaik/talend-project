@@ -153,7 +153,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Mailrows"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="3" name="Column0" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="sur" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
       <column comment="" key="false" length="3" name="Column0" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -175,19 +175,19 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Column0"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sur"/>
       <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tLogRow_1">
-      <column comment="" key="false" length="3" name="Column0" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="sur" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.column0=row2.column0;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.sur=row2.sur;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tJavaRow_1">
