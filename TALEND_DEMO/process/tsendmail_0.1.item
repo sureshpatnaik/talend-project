@@ -203,7 +203,7 @@
     <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Response&quot;"/>
-    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="context.column0"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="+context.column0+"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
     <elementParameter field="TABLE" name="HEADERS"/>
