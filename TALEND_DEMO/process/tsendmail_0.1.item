@@ -200,7 +200,7 @@
         <mapperTableEntries name="S_No" expression="row1.S_No " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Name" expression="row1.Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="Course" expression="row1.Course " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Mailbody" expression="row1.S_No + row1.Name  + row1.Course " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Mailbody" expression="row1.S_No + \n + row1.Name  + row1.Course " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="S_No" type="id_Integer" nullable="true"/>
