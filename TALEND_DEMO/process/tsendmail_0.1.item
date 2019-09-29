@@ -194,7 +194,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="Mailbody" expression="row1.S_No +&quot; \n &quot;+ row1.Name  +&quot; \n &quot; + row1.Course " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Mailbody" expression="row1.S_No +&quot;  &quot;+ row1.Name  +&quot;  &quot; + row1.Course " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="S_No" type="id_Integer" nullable="true"/>
