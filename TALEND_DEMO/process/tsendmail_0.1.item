@@ -226,7 +226,7 @@
     <elementParameter field="TEXT" name="FROM" value="&quot;sureshpatnaik.ch@gmail.com&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
-    <elementParameter field="TEXT" name="CC" value="&quot;navakotinidiginti@gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;krishnareddy971@gmail.com&quot;"/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello&quot;"/>
