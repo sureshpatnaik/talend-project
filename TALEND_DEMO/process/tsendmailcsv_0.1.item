@@ -113,11 +113,11 @@
     <elementParameter field="FILE" name="FILENAME" value="&quot;D:/Institute/files for practice/Practice.xlsx&quot;"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value=""/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
-    <elementParameter field="TEXT" name="FIRST_COLUMN" value=""/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
     <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
