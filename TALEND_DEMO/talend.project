@@ -80,7 +80,6 @@
       <relatedItems xmi:id="_qJqb2eNZEemRrvVl6K8jfw" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_qJqb2uNZEemRrvVl6K8jfw" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_qJqb2-NZEemRrvVl6K8jfw" id="Mathematical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_qJqb3ONZEemRrvVl6K8jfw" id="_XugGEOD-Eem_k9aDfgfycQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_8D6isOBrEemzG8zdKf4QtQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_8D7JwOBrEemzG8zdKf4QtQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
