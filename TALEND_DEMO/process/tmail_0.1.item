@@ -199,7 +199,7 @@
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
     <elementParameter field="TEXT" name="CC" value="&quot;enagandula.sreekanth.1992@gmail.com&quot;"/>
-    <elementParameter field="TEXT" name="BCC" value="&quot;navakotinidiginti@gmail.com&quot;, &quot;krishnareddy971@gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;navakotinidiginti@gmail.com&quot; &quot;krishnareddy971@gmail.com&quot;"/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="context.S_No_Name_Course"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
