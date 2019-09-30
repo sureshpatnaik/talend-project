@@ -199,7 +199,7 @@
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
     <elementParameter field="TEXT" name="CC" value="&quot;enagandula.sreekanth.1992@gmail.com&quot;"/>
-    <elementParameter field="TEXT" name="BCC" value="&quot;navakotinidiginti@gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;navakotinidiginti@gmail.com&quot;, &quot;krishnareddy971@gmail.com&quot;"/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="context.S_No_Name_Course"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
@@ -211,8 +211,8 @@
     <elementParameter field="CHECK" name="STARTTLS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
-    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="PoLvNyVG2XWndNDdLn696A=="/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;sureshpatnaik.ch@gmail.com&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="81A7gl1yQtiEK0mc8/+/WQ=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
